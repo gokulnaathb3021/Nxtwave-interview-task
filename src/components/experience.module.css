@@ -1,0 +1,58 @@
+.experience {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.experience button {
+  width: fit-content;
+  height: fit-content;
+}
+
+.redBorder {
+  border-color: red;
+}
+
+.edit {
+  padding: 2px;
+  background-color: cornflowerblue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.edit:hover {
+  background-color: darkcyan;
+}
+
+.update {
+  padding: 2px;
+  background-color: darkgreen;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.update:hover {
+  background-color: green;
+}
+
+.cancelEdit {
+  padding: 2px;
+  background-color: crimson;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.cancelEdit:hover {
+  background-color: red;
+}
+
+@media screen and (max-width: 480px) {
+  .experience {
+    font-size: 15px;
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+}
